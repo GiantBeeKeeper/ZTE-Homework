@@ -166,20 +166,20 @@ public class BounceBall{
 No.6
 
 public class Peach{
-
-     public static void main(String []args){
-         int a = peach(10);
+    public static void main(String []args){
+        System.out.println("第一天摘的桃子个数为：");
+        int a = peach(10);
         System.out.println(a);
-     }
-     public static int peach(int n){
-         if(n == 1){
-             return 1;
-         }else{
-             return (peach(n-1) + 1) * 2;
-         }
-         
-         
-     }
+    }
+    public static int peach(int n){
+        if(n == 1){
+            return 1;
+        }else{
+            return (peach(n-1) + 1) * 2;
+        }
+
+
+    }
 }
 
 
