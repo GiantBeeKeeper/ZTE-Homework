@@ -2,6 +2,7 @@
 15 practice items writen in Java
 
 No.1
+
 public class EvenNumberInTen{
 
      public static void main(String []args){
@@ -94,6 +95,7 @@ public class Year_Month_Day{
 
 
 No.4
+
 import java.util.Scanner;
 import java.util.HashMap;
 import java.lang.Math;
@@ -132,6 +134,7 @@ public class BounceBall{
 
 
 No.5
+
 import java.util.Scanner;
 import java.util.HashMap;
 import java.lang.Math;
@@ -161,6 +164,7 @@ public class BounceBall{
 
 
 No.6
+
 public class Peach{
 
      public static void main(String []args){
