@@ -2,6 +2,7 @@
 15 practice items writen in Java
 
 No.1*************************
+从大到小输出10以内的偶数。
 
 public class EvenNumberInTen{
 
@@ -18,6 +19,7 @@ public class EvenNumberInTen{
 
 
 No.2*************************
+输出小于100的斐波那契数列。
 
 public class Fibonacci{
 
@@ -42,6 +44,7 @@ public class Fibonacci{
 
 
 No.3*************************
+输入某年某月某日，判断这一天是这一年的第几天。
 
 import java.util.Scanner;
 import java.util.HashMap;
@@ -95,6 +98,7 @@ public class Year_Month_Day{
 
 
 No.4*************************
+打印出所有的“水仙花数”，所谓“水仙花数”是指一个三位数，其各位数字立方和等于该数本身。
 
 import java.util.Scanner;
 import java.util.HashMap;
@@ -134,6 +138,7 @@ public class BounceBall{
 
 
 No.5*************************
+一球从100米高度自由落下，每次落地后反跳回原高度的一半，再落下，求它在第10次落地时，共经过多少米？第10次反弹多高？
 
 import java.util.Scanner;
 import java.util.HashMap;
@@ -164,6 +169,7 @@ public class BounceBall{
 
 
 No.6*************************
+猴子吃桃问题：猴子第一天摘下若干个桃子，当即吃了一半还不过瘾，又多吃了一个，第二天早上又将剩下的桃子吃了一半，又多吃了一个。以后每天早晨都吃了前一天的一半零一个。到第10天早上再想吃时，见只剩下一个桃子，求第一天共摘了多少？
 
 public class Peach{
     public static void main(String []args){
@@ -184,6 +190,8 @@ public class Peach{
 
 
 No.7*************************
+有1、2、3、4这4个数字，能组成多少个互不相同且无重复数字的三位数？都是多少？
+
 import java.util.Iterator;
 import java.util.HashSet;
 public class DifferentNumber {
@@ -212,6 +220,8 @@ public class DifferentNumber {
 
 
 No.8*************************
+打印输出9 * 9乘法表
+
 public class multiplicationTalbe99 {
     public static void main(String[] args){
         for(int i = 1; i <= 9; i++){
@@ -226,6 +236,8 @@ public class multiplicationTalbe99 {
 
 
 No.9*************************
+输入一行字符，分别统计出英文字母、空格、数字和其他字符的个数
+
 import java.util.Scanner;
 
 public class charnumber {
@@ -259,6 +271,9 @@ public class charnumber {
 
 
 No.10*************************
+两个乒乓球队进行比赛，各处三人。甲队为a、b、c三人，乙队为x、y、z三人。已经抽签决定比赛名单。有人向队员比赛的名单。a说他不和x比，c说他不和
+x、z比，请编程找出三队赛手的名单。
+
 public class teamlist {
     public static void main(String[] args){
         char[] team1 = {'a','b','c'};
@@ -293,7 +308,8 @@ public class teamlist {
 
 
 No.11*************************
-
+人们书的文字常常超过屏幕的最大宽度，编写一个程序，在一个文本文件中查找长度大于80个字符的文本行。从接近80个字符的单词断行，把剩余文件插入到下一行
+处，程序执行完毕后，应该没有80个字符的文本行了。
 
 import java.io.File;
 import java.io.BufferedReader;
@@ -379,7 +395,7 @@ public class textline {
 
 
 No.12**************************
-
+每次考试之后，教师都要统计考试成绩，一般包括：平均分，对所有人按成绩从高到低排队，谁成绩最好，谁成绩最查。为了简化，以字典（map）形式表示考试成绩记录，例如：{“zhangsan”：90，“lisi”：78，“wangermazi”：39}
 
 import java.util.LinkedList;
 import java.util.Scanner;
@@ -421,6 +437,8 @@ public class score {
 }
 
 No.13**********************
+正则表达式识别后面的字符串：“bat”、“bit”、“but”、“hat”、“hit”和“hut”
+
 import java.util.regex.*;
 import java.util.Scanner;
 
@@ -436,6 +454,8 @@ public class strdetection {
 }
 
 No.14*********************
+将年月日的时间格式通过正则表达式的方式表达为日月年
+
 import java.util.regex.Pattern;
 import java.util.Scanner;
 public class datereverse {
@@ -451,6 +471,8 @@ public class datereverse {
 }
 
 No.15*******************************
+从电子邮件地址中提取登录名和域名
+
 import java.util.Scanner;
 public class emailaddress {
     public static void main(String[] args){
